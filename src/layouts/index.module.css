@@ -1,0 +1,78 @@
+.container{
+    text-align: center;
+    margin-left: 120px;
+    margin-right:120px;
+}
+
+.quote{
+text-align: center;
+font-style: italic;
+line-height: 1em;
+color: #425f24;
+
+}
+
+.description{
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.videoContainer{
+    max-width: 100%;
+    text-align: center;
+}
+
+.imageContainer{
+    max-width: 50%;
+    float: right;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 500px)
+{
+    .container{
+        text-align: center;
+        margin-left: 20px;
+        margin-right:20px;
+    }
+    
+    .quote{
+    text-align: center;
+    font-style: italic;
+    line-height: 1em;
+    color: #425f24;
+    
+    }
+    
+    .description{
+        text-align: justify;
+        padding-top: 10px;
+    }
+    
+    .videoContainer{
+        max-width: 100% !important;
+        text-align: center;
+    }
+    
+    .imageContainer{
+        max-width: 50%;
+        float: right;
+    }
+
+    iframe{
+        height: 70%;
+        max-width: 100%;
+    }
+
+    h3 {
+        font-size: 13pt;
+    }
+
+    p{
+        font-size: 11pt;
+        text-align: justify;
+
+    }
+}    

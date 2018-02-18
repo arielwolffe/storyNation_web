@@ -1,0 +1,81 @@
+.container{
+    margin-left: 120px;
+    margin-right:120px;
+
+}
+
+.heading{
+color: #425f24;
+}
+.sectionContainer{
+    margin-top: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section1_copy{
+    max-width: 60%;
+    float: left;
+}
+
+.section1_quote{
+    font-style: italic;
+    line-height: 2em;
+}
+
+.scetion1_img{
+    max-width: 40%;
+    max-height: 500px;
+    float: right;
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 500px)
+{
+    .container{
+        text-align: center;
+        margin-left: 20px;
+        margin-right:20px;
+    }
+
+    .sectionContainer{
+        margin-top: 10px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .section1_copy{
+        max-width: 100%;
+        float: left;
+        text-align: justify;
+    }
+    
+    .section1_quote{
+        font-style: italic;
+        line-height: 1.5em;
+    }
+    
+    .scetion1_img{
+        max-width: 100%;
+        max-height: 500px;
+        float: right;
+    }
+    
+    .section2{
+        margin-top: 30px !important;
+    }
+
+    h3 {
+        font-size: 13pt;
+    }
+
+    p{
+        font-size: 11pt;
+        text-align: justify;
+
+    }
+}
+
